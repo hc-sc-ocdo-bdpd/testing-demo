@@ -18,5 +18,3 @@ values = [(1, 1, 2),
 @pytest.mark.parametrize(variable_names, values)
 def test_parameterized(a, b, c):
     assert add(a,b) == c
-
-
